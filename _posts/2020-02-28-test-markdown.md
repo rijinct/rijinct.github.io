@@ -75,6 +75,16 @@ In nifi.properties file, make the following changes:
 
 And here is the same code with syntax highlighting:
 
+```python
+    def modify_ext_property(self, instrument_name, event_name):
+        self.data_ext_property['forms[0]'] = instrument_name
+        self.data_ext_property['events[0]'] = event_name
+        if self.date_range_lst[0] != 'None':
+            self.data_ext_property['dateRangeBegin'] = self.date_range_lst[0]
+            self.data_ext_property['dateRangeEnd'] = self.date_range_lst[1]
+        print('data_ext_property after modification -> {}'.format(self.data_ext_property))
+```
+
 ```javascript
 var foo = function(x) {
   return(x + 5);
