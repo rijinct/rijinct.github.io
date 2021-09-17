@@ -1,8 +1,12 @@
 ---
 layout: post
-title: The power of NiFi
+title: The Power Of NiFi
 subtitle: Securing NiFi
 comments: true
+cover-img: /assets/img/path.jpg
+thumbnail-img: /assets/img/thumb.png
+share-img: /assets/img/path.jpg
+tags: [books, concepts]
 ---
 
 Apache NiFi is an integrated data logistics platform for automating the movement of data between disparate systems. It provides real-time control that makes it easy to manage the movement of data between any source and any destination. It is data source agnostic, supporting disparate and distributed sources of differing formats, schemas, protocols, speeds and sizes such as machines, geo location devices, click streams, files, social feeds, log files and videos and more
@@ -73,24 +77,6 @@ In nifi.properties file, make the following changes:
          nifi.security.user.login.identity.provider=ldap-provider
 ~~~
 
-And here is the same code with syntax highlighting:
-
-```python
-    def modify_ext_property(self, instrument_name, event_name):
-        self.data_ext_property['forms[0]'] = instrument_name
-        self.data_ext_property['events[0]'] = event_name
-        if self.date_range_lst[0] != 'None':
-            self.data_ext_property['dateRangeBegin'] = self.date_range_lst[0]
-            self.data_ext_property['dateRangeEnd'] = self.date_range_lst[1]
-        print('data_ext_property after modification -> {}'.format(self.data_ext_property))
-```
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
 
 And here is the same code yet again but with line numbers:
 
