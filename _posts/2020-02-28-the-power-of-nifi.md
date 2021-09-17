@@ -4,7 +4,7 @@ title: The Power Of NiFi
 subtitle: Securing NiFi
 comments: true
 cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
+thumbnail-img: /assets/img/nifi-img.png
 share-img: /assets/img/path.jpg
 tags: [books, concepts]
 ---
