@@ -9,7 +9,17 @@ share-img: /assets/img/path.jpg
 tags: [books, concepts]
 ---
 
-Apache NiFi is an integrated data logistics platform for automating the movement of data between disparate systems. It provides real-time control that makes it easy to manage the movement of data between any source and any destination. It is data source agnostic, supporting disparate and distributed sources of differing formats, schemas, protocols, speeds and sizes such as machines, geo location devices, click streams, files, social feeds, log files and videos and more
+Apache NiFi is an integrated data logistics platform for automating the movement of data between disparate systems. It provides real-time control that makes it easy to manage the movement of data between any source and any destination. It is data source agnostic, supporting disparate and distributed sources of differing formats, schemas, protocols, speeds and sizes such as machines, geo location devices, click streams, files, social feeds, log files and videos and more.
+
+## NiFi Demo
+
+![NiFi1](/assets/img/NiFi1.png)
+
+![NiFi2](/assets/img/NiFi2.png)
+
+![NiFi3](/assets/img/NiFi3.png)
+
+![NiFi4](/assets/img/NiFi4.png)
 
 
 ## NiFi Security
