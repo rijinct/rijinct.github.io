@@ -24,6 +24,7 @@ Apache NiFi is an integrated data logistics platform for automating the movement
 
 ## Complete NiFi Usecase Explanation
 
+
 1. A get API request will fetch all the records from Source DataSilo in csv format
 2. Convert those csv to json because we plan to store as individual json in MarkLogic. 
 3. Split the json into individual flow files, so that finally we store as independent json docs
@@ -34,6 +35,22 @@ Apache NiFi is an integrated data logistics platform for automating the movement
 ![usecase2](/assets/img/usecase2.png)
 
 ![usecase3](/assets/img/usecase3.png)
+
+
+## Processor Properties
+
+
+![processor1](/assets/img/processor1.png)
+
+![processor2](/assets/img/processor2.png)
+
+![processor3](/assets/img/processor3.png)
+
+![processor4](/assets/img/processor4.png)
+
+![processor5](/assets/img/processor5.png)
+
+![processor6](/assets/img/processor6.png)
 
 
 
