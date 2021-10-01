@@ -39,17 +39,22 @@ Apache NiFi is an integrated data logistics platform for automating the movement
 
 ## Processor Properties
 
-
+**ReplaceText Processor:**
 ![processor1](/assets/img/processor1.png)
 
+**ReplaceText Processor:**
 ![processor2](/assets/img/processor2.png)
 
+**ReplaceText Processor:**
 ![processor3](/assets/img/processor3.png)
 
+**UpdateAttribute Processor:**
 ![processor4](/assets/img/processor4.png)
 
+**EvaluateJsonPath Processor:**
 ![processor5](/assets/img/processor5.png)
 
+**RouteOnAttribute Processor:**
 ![processor6](/assets/img/processor6.png)
 
 
