@@ -22,6 +22,21 @@ Apache NiFi is an integrated data logistics platform for automating the movement
 ![NiFi4](/assets/img/NiFi4.png)
 
 
+## Complete NiFi Usecase Explanation
+
+1. A get API request will fetch all the records from Source DataSilo in csv format
+2. Convert those csv to json because we plan to store as individual json in MarkLogic. 
+3. Split the json into individual flow files, so that finally we store as independent json docs
+4. Manupulate the data content in the json doc to do some data check like, the field opn and ouuid should always be numeric, find the ones which are non-numeric. 
+
+![usecase1](/assets/img/usecase1.png)
+
+![usecase2](/assets/img/usecase2.png)
+
+![usecase3](/assets/img/usecase3.png)
+
+
+
 ## NiFi Security
 
 **NIFI Authentication:**
