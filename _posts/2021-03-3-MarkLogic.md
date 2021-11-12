@@ -4,9 +4,10 @@ title: Innovation through Data-Driven Diagnostics
 comments: true
 ---
 
-Over the last few months, I have been working with Western Australia Research data in deriving analytical insights from a wide range of Data-Silos with unstructured data. It was surprising to see the number of insights that could derive from the variety of data available. The only solution to such an adverse data pattern was to use a complete NoSql model and make the most of an ELT instead of ETL. I have been evaluating the performance and Data modelling capabilities of SnowFlake, DataBricks, Talend, GoogleBigQuery against MarkLogic NoSQL and was amazed by the power of MarkLogic DB, especially from the Security and Data-Modelling point of view. I have been benchmarking performance KPI's for Rest search requests on MarkLogic with more than 100 million documents. I will be sharing the results soon. 
+Over the last few months, I have been working with Western Australia Research data in deriving analytical insights from a wide range of Data-Silos with unstructured data. It was surprising to see the number of insights that could derive from the variety of data available. To deal with such an adverse data pattern, the only solution was to use a complete NoSql model and make the most of an ELT instead of ETL. I have been evaluating the performance and Data modelling capabilities of SnowFlake, DataBricks, Talend, GoogleBigQuery against MarkLogic NoSQL and was amazed by the power of MarkLogic DB, especially from the Security and Data-Modelling point of view. I have been benchmarking performance KPI’s for Rest search requests on MarkLogic with more than 100 million documents. I will be sharing the results soon.
 
-The below 2020 survey shows  Research organizations/Institutes driven with data solutions:
+
+The below 2020 survey shows Research organizations/Institutes ranked based on their data solutions:
 
 
 ![Data Stats](/assets/img/data-stats.png)
