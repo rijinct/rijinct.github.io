@@ -6,11 +6,11 @@ comments: true
 
 Example: Convert Date to Number
 
-```javascript
+```js
 // program to convert date to number
 // create date
 const d1 = new Date();
-console.log(d1);
+<span style="color:blue">console</span>.log(d1);
 
 // converting to number
 const result = d1.getTime();
