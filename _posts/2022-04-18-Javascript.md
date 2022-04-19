@@ -6,7 +6,7 @@ comments: true
 
 Example: Convert Date to Number
 
-{% highlight python %}
+{% highlight javascript %}
 // program to convert date to number
 // create date
 const d1 = new Date();
