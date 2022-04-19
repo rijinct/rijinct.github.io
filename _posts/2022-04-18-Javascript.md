@@ -549,13 +549,14 @@ console.log('This message is shown first');
 
 {: .box-note}
 **Output**
-This message is shown first
-Hello world
-In the above program, the greet() function is passed to the setTimeout().  
+This message is shown first  
+Hello world  
+
+In the above program, the greet() function is passed to the setTimeout().    
 
 The greet() function then gets called after 3000 milliseconds (3 seconds).  
 
-Hence, the program displays the text Hello world only once after 3 seconds.
+Hence, the program displays the text Hello world only once after 3 seconds.  
 
 Example 2: Passing Parameter to Function
 ```js
@@ -569,11 +570,187 @@ function greet(x, y) {
 setTimeout(greet, 3000, 'hello', 'world');
 console.log('This message is shown first');
 ```
+
+
 {: .box-note}
 **Output**
-This message is shown first
-hello
-world
-In the above program, additional parameters x and y are required in the greet() function.
+This message is shown first  
+hello  
+world  
+
+In the above program, additional parameters x and y are required in the greet() function.  
 
 When calling the setTimeout() function, additional arguments 'hello' and 'world' are passed which are used by the greet() function.
+
+
+## 11. JavaScript Program To Work With Constants
+
+In this example, you will learn to write a JavaScript program to work with constants.
+
+To understand this example, you should have the knowledge of the following JavaScript programming topics:
+
+JavaScript Variables and Constants
+Example: Work With Constants
+```js
+// program to include constants
+
+const a = 5;
+console.log(a);
+
+// constants are block-scoped
+{
+    const a = 50;
+    console.log(a);
+}
+console.log(a);
+
+const arr = ['work', 'exercise', 'eat'];
+console.log(arr);
+
+// add elements to arr array
+arr[3] = 'hello';
+console.log(arr);
+
+// the following code gives error
+// changing the value of a throws an error
+// uncomment to verify
+// a = 8;
+
+// throws an error
+// const x; 
+```
+
+{: .box-note}
+**Output**
+5  
+50  
+5  
+["work", "exercise", "eat"]  
+["work", "exercise", "eat", "hello"]  
+
+JavaScript ES6 has introduced the const keyword to work with constants. const denotes that the reference to value is constant and cannot be changed.
+
+For example,
+
+const a = 5;
+a = 44; // throws an error
+Constants are block-scoped. Hence the variable defined inside a block represents a different value than the one outside. For example,
+```js
+{
+    const a = 50;
+    console.log(a); // 50
+}
+
+console.log(a); // 5
+```
+
+The arr array value is changed and a new element is added. In array, the values can be changed. However, the array reference cannot be changed. For example,
+
+```js
+const arr = ['work', 'exercise', 'eat'];
+arr[3] = 'hello';
+```
+Also, the constant should be initialized. You cannot just declare a constant. For example,
+
+const x;
+// SyntaxError: const declared variable 'x' must have an initializer.
+
+## 12. JavaScript Program to Check If a Variable is of Function Type
+
+In this example, you will learn to write a JavaScript program that will check if a variable is of function type.
+
+To understand this example, you should have the knowledge of the following JavaScript programming topics:
+
+JavaScript typeof Operator  
+Javascript Function call()  
+Javascript Object toString()  
+Example 1: Using instanceof Operator  
+
+```js
+// program to check if a variable is of function type
+
+function testVariable(variable) {
+      
+    if(variable instanceof Function) {
+        console.log('The variable is of function type');
+    }
+    else {
+        console.log('The variable is not of function type');
+    }
+}
+
+const count = true;
+const x = function() {
+    console.log('hello')
+};
+
+testVariable(count);
+testVariable(x);
+```
+
+
+{: .box-note}
+**Output**
+The variable is not of function type  
+The variable is of function type  
+In the above program, the instanceof operator is used to check the type of variable.  
+
+Example 2: Using typeof Operator
+```js
+// program to check if a variable is of function type
+
+function testVariable(variable) {
+      
+    if(typeof variable === 'function') {
+        console.log('The variable is of function type');
+    }
+    else {
+        console.log('The variable is not of function type');
+    }
+}
+
+const count = true;
+const x = function() {
+    console.log('hello')
+};
+
+testVariable(count);
+testVariable(x);
+```
+
+{: .box-note}
+**Output**
+The variable is not of function type
+The variable is of function type
+In the above program, the typeof operator is used with strict equal to === operator to check the type of variable.
+
+The typeof operator gives the variable data type. === checks if the variable is equal in terms of value as well as the data type.
+
+Example 3: Using Object.prototype.toString.call() Method
+```js
+// program to check if a variable is of function type
+
+function testVariable(variable) {
+      
+    if(Object.prototype.toString.call(variable) == '[object Function]') {
+        console.log('The variable is of function type');
+    }
+    else {
+        console.log('The variable is not of function type');
+    }
+}
+
+const count = true;
+const x = function() {
+    console.log('hello')
+};
+
+testVariable(count);
+testVariable(x);
+```
+
+{: .box-note}
+**Output**
+The variable is not of function type  
+The variable is of function type  
+The Object.prototype.toString.call() method returns a string that specifies the object type.  
