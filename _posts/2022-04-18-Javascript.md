@@ -19,7 +19,7 @@ console.log(result);
 
 {: .box-note}
 **Output**
-Mon Nov 09 2020 10:52:32 GMT+0545 (Nepal Time)
+Mon Nov 09 2020 10:52:32 GMT+0545 (Nepal Time)  
 1604898452084
 
 JavaScript Program to Write to Console
