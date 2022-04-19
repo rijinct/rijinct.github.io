@@ -57,6 +57,7 @@ let obj = {
 console.log(obj);
 ```
 
+
 {: .box-note}
 **Output**  
 8  
@@ -79,6 +80,7 @@ Javascript Array join()
 JavaScript Regex
 
 Example 1: Using split() and join()
+
 ```js
 // program to trim a string
 
@@ -88,12 +90,14 @@ const result = string.split(' ').join('');
 
 console.log(result);
 ```
+
+
 {: .box-note}
 **Output**
-HelloWorld
-In the above program,
-The split(' ') method is used to split the strings into individual array elements. ["", "", "", "", "", "", "Hello", "World", "", "", "", "", "", "", ""]
-The join('') method merges the array into a string.
+HelloWorld  
+In the above program,  
+The split(' ') method is used to split the strings into individual array elements. ["", "", "", "", "", "", "Hello", "World", "", "", "", "", "", "", ""]  
+The join('') method merges the array into a string.  
 
 Example 2: Using Regular Expression
 ```js
@@ -109,6 +113,8 @@ function trimString(x) {
 const result = trimString('    Hello World    ');
 console.log(result);
 ```
+
+
 {: .box-note}
 **Output**  
 HelloWorld
@@ -132,6 +138,8 @@ img.onload = function() {
   console.log('height '+ this.height);
 }
 ```
+
+
 {: .box-note}
 **Output**
 width 1040  
