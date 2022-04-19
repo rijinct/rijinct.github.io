@@ -6,7 +6,7 @@ comments: true
 
 Example: Convert Date to Number
 
-```js
+{% highlight python %}
 // program to convert date to number
 // create date
 const d1 = new Date();
@@ -15,7 +15,7 @@ console.log(d1);
 // converting to number
 const result = d1.getTime();
 console.log(result);
-```
+{% endhighlight %}
 
 {: .box-note}
 **Output**
