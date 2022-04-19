@@ -1,3 +1,9 @@
+---
+layout: post
+title: JavaScript
+comments: true
+---
+
 Example: Convert Date to Number
 
 ```javascript
