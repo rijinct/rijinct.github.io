@@ -59,19 +59,19 @@ console.log(obj);
 
 {: .box-note}
 **Output**  
-8
-hello
-hello
-Hello John
-Hello John
-{
-  age: 28,
-  name: "John"
-}
+8  
+hello  
+hello  
+Hello John  
+Hello John  
+{  
+  age: 28,  
+  name: "John"  
+}  
 
 
 
-## 3.JavaScript Program to Remove All Whitespaces From a Text
+## 3. JavaScript Program to Remove All Whitespaces From a Text
 In this example, you will learn to write a JavaScript program that will remove all whitespaces from a text.
 To understand this example, you should have the knowledge of the following JavaScript programming topics:
 JavaScript String split()
@@ -87,14 +87,16 @@ const string = '      Hello World       ';
 const result = string.split(' ').join('');
 
 console.log(result);
-Output
+```
+{: .box-note}
+**Output**
 HelloWorld
 In the above program,
 The split(' ') method is used to split the strings into individual array elements. ["", "", "", "", "", "", "Hello", "World", "", "", "", "", "", "", ""]
 The join('') method merges the array into a string.
 
 Example 2: Using Regular Expression
-
+```js
 // program to trim a string
 
 function trimString(x) {
