@@ -260,6 +260,8 @@ console.log(queue.size());
 queue.clear();
 console.log(queue.items);
 ```
+
+
 {: .box-note}
 **Output**
 [1, 2, 4, 8]  
@@ -348,6 +350,8 @@ console.log(stack.size());
 stack.clear();
 console.log(stack.items);
 ```
+
+
 {: .box-note}
 **Output**
 [1, 2, 4, 8]  
@@ -409,6 +413,8 @@ sum(5);
 sum(5, 9);    
 sum(1, 2, 3, 4, 5, 6, 7, 8, 9); 
 ```
+
+
 {: .box-note}
 **Output**
 You have not passed any argument  
@@ -450,26 +456,28 @@ sum(5);
 sum(5, 9);    
 sum(1, 2, 3, 4, 5, 6, 7, 8, 9);
 ```
+
+
 {: .box-note}
 **Output**
-You have not passed any argument  
-Pass at least two arguments  
-14  
-45  
+You have not passed any argument    
+Pass at least two arguments    
+14    
+45    
 
-In the above program, the switch statement is used to accomplish the function overloading functionality. Different conditions result in different actions to be performed.
-Share on:
+In the above program, the switch statement is used to accomplish the function overloading functionality. Different conditions result in different actions to be performed.  
+Share on:  
 
 
 
 
 ## 9. JavaScript Program to Generate a Range of Numbers and Characters
-In this example, you will learn to write a JavaScript program that will generate a range of numbers and characters by passing the upper and lower bounds.
-To understand this example, you should have the knowledge of the following JavaScript programming topics:
-JavaScript String fromCharCode()
-JavaScript String charCodeAt()
-JavaScript Array map()
-JavaScript Generators
+In this example, you will learn to write a JavaScript program that will generate a range of numbers and characters by passing the upper and lower bounds.  
+To understand this example, you should have the knowledge of the following JavaScript programming topics:  
+JavaScript String fromCharCode()  
+JavaScript String charCodeAt()  
+JavaScript Array map()  
+JavaScript Generators  
 
 Example: Generate Range of Characters
 ```js
@@ -494,14 +502,16 @@ function range(a, b) {
 range(1, 5);
 range('A', 'G');
 ```
+
+
 {: .box-note}
 **Output**
-[1, 2, 3, 4, 5]  
-["A", "B", "C", "D", "E", "F", "G"]  
+[1, 2, 3, 4, 5]    
+["A", "B", "C", "D", "E", "F", "G"]    
 
-In the above program, a range of numbers and characters is generated between the upper and the lower bounds.
-The iterate generator function is used to iterate through lower and upper bounds.
-The spread syntax ... is then used to include all the elements returned by the iterate function.
-The charCodeAt() method takes in an index value and returns an integer representing its UTF-16 (16-bit Unicode Transformation Format) code.
-The map() method iterates through all the array elements.
-The fromCharCode() method converts Unicode values into characters.
+In the above program, a range of numbers and characters is generated between the upper and the lower bounds.  
+The iterate generator function is used to iterate through lower and upper bounds.  
+The spread syntax ... is then used to include all the elements returned by the iterate function.  
+The charCodeAt() method takes in an index value and returns an integer representing its UTF-16 (16-bit Unicode Transformation Format) code.  
+The map() method iterates through all the array elements.  
+The fromCharCode() method converts Unicode values into characters.  
