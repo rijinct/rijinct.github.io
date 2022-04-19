@@ -10,7 +10,7 @@ Example: Convert Date to Number
 // program to convert date to number
 // create date
 const d1 = new Date();
-<span style="color:blue">console</span>.log(d1);
+console.log(d1);
 
 // converting to number
 const result = d1.getTime();
