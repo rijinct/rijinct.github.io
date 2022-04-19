@@ -178,9 +178,10 @@ name('John', greet);
 name('Jack', greet);
 name('Sara', greet);
 ```
+
+
 {: .box-note}
 **Output**
-Output
 Hello John  
 Hello Jack  
 Hello Sara  
